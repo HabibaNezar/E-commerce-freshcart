@@ -1,0 +1,140 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  /* margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+ :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+ul.slick-dots{
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: static;
+  width: 100%;
+  padding-top: 5px;
+  padding-inline: 10px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+ul.slick-dots li{
+  width: 50px !important;
+  height: 10px !important;
+  position: static;
+  margin-inline: 2px !important;
+}
+
+ul.slick-dots li a{
+  width: 100%;
+  height: 100%;
+  position: static;
+  
+}
+
+
+@media only screen and (min-width: 600px) {
+  ul.slick-dots{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: static;
+    width: 100%;
+    padding-top: 10px;
+    padding-inline: 10px;
+    justify-content: space-between;
+  }
+  
+  ul.slick-dots li{
+    width: 80px !important;
+    height: 80px !important;
+    position: static;
+    margin-inline: 2px !important;
+  }
+  
+  ul.slick-dots li a{
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+
+  ul.slick-dots li a img.myimg{
+    width: 100% !important;
+  }
+  
+}
+
+/* ////// */
+ul.slick-dots li button{
+  display: none;
+}
+
+button.slick-arrow.slick-next{
+  display: none !important;
+}
+
+ul.slick-dots{
+  margin: 0;
+  color: black;
+  /* background-color: #747bff; */
+  display: none;
+
+}
+
+ul.slick-dots li button{
+  color: black;
+  /* background-color: red; */
+  display: none;
+}
+
+
+.go3489369143.go1754112896{
+  display: none;
+}
+/* div.slick-slider.slick-initialized ul.slick-dots{
+  display: none !important;
+} */

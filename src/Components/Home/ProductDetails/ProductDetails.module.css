@@ -1,0 +1,5 @@
+.myimg{
+    width: 500px !important ;
+    margin-top: 10px;
+    border-image: round;
+}
