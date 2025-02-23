@@ -46,7 +46,7 @@ function App() {
       {path:'forgot-password' , element:<ForgetPassword/>},
     ]}
   ],
-  { basename: "/E-commerce" } // ✅ أضف هذا السطر
+  { basename: "/E-commerce-freshcart" } // ✅ أضف هذا السطر
 
 )
   
